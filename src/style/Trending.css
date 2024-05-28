@@ -1,0 +1,16 @@
+.trending {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+.movies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+.series {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }

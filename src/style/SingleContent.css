@@ -1,0 +1,56 @@
+.media {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    padding: 5px;
+    margin: 20px 0;
+    background-color: #282c34;
+    border-radius: 10px;
+    position: relative;
+    font-family: "Montserrat", sans-serif;
+    transition: 450ms;
+    cursor: pointer;
+    /* border: 2px solid white; */
+  }
+  
+  .media:hover {
+    transform: scale(1.05);
+    
+  }
+  
+  @media (max-width: 550px) {
+    .media {
+      width: 46%;
+    }
+  }
+  
+  .poster {
+    border-radius: 10px;
+    
+  }
+  
+  .title {
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
+    padding: 8px 0;
+    margin-bottom: 10px;
+    text-decoration: none;
+  }
+  
+  .subTitle {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 3px;
+    padding: 0 2px;
+    padding-bottom: 3px;
+    font-size: 14px;
+    /* font-weight: 600; */
+  }
+
+  .navlink{
+    text-decoration: none;
+    color: aliceblue;
+  }
